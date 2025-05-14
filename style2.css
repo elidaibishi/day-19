@@ -24,3 +24,12 @@
 #foto3 :hover img{
     filter: blur(0);
 }
+
+#foto4 img{
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+
+#foto4:hover img{
+    filter: grayscale(0);
+}
